@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keropi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="mainMenuScreen">
+    <h1>Keropi</h1>
+    <img id="startButton" src="img/start-btn.jpg" alt="Start" class="imageButton" />
+  </div>
+
+  <div class="gameScreen hide"> 
+    <h2 id="kikkerName"></h2>
+    <p>Sleep: <span id="sleep">100</span>%</p>
+    <p>Hunger: <span id="hunger">100</span>%</p>
+    <p>Play: <span id="play">100</span>%</p>
+    <img id="kikkerImage" src="img/kikker_blij.png" alt="Kikker" />
+
+    <div class="actions">
+      <img id="playButton" src="img/icon_gamen.png" alt="Spelen" title="Spelen" />
+      <img id="feedButton" src="img/icon_eten.png" alt="Voeren" title="Voeren" />
+      <img id="sleepButton" src="img/icon_slapen.png" alt="Slapen" title="Slapen" />
+    </div>
+  </div>
+
+  <div class="endScreen hide">
+    <h2>Je kikker is 💀</h2>
+    <p>Gezondheid was: <span id="finalHealth"></span>%</p>
+    <img id="kikkerDedImage" src="img/kikker_ded.png" alt="Dode kikker" />
+    <img id="restartButton" src="img/restart-btn.png" alt="Opnieuw" class="imageButton" />
+  </div>
+
+  <script src="javascript.js"></script>
+
+</body>
+
+</html>
+
+
+
+

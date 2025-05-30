@@ -1,0 +1,93 @@
+.hide {
+  display: none;  /* https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/class */
+}
+
+h1 {
+  color: antiquewhite;
+  font-size: 64px;
+  margin-top: 0;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+}
+
+.mainMenuScreen {
+  background-image: url("img/startScreen.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.mainMenuScreen img {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.gameScreen {
+  background-image: url("img/kikkerBeekje.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 20px;
+}
+
+.endScreen {
+  background-image: url("img/kikkerBeekje.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.actions img {
+  width: 150px;
+  margin: 15px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.actions img:hover {
+  transform: scale(1.1);
+}
+
+#kikkerImage {
+  width: 300px;
+  height: auto;
+  max-width: 100%;
+  position: fixed;       
+  bottom: 50px;          
+  left: 50%;            
+  margin-left: -150px;  
+}
+
+
+#kikkerDedImage {
+  width: 300px;
+  height: auto;
+  max-width: 100%;
+  position: fixed;       
+  bottom: 50px;          
+  left: 50%;            
+  margin-left: -150px;  
+}
+
+.imageButton {
+  width: 150px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  margin-top: 20px;
+}
+
+
+#restartButton {
+  display: block;
+  margin: 30px auto 0 auto;
+}
